@@ -18,3 +18,23 @@ print (name)
 print(type(counter)) # it will return <class 'int'>
 print(type(miles))  # it will return <class 'float'>
 print(type(name)) # it will return <class 'str'>
+
+
+# Casting a variable
+
+x = str(10) # x will be treated as a string
+y = float(10) # y will be treated as a float
+z = int(10) # z will be treated as a integer
+
+print("x = ", x)
+print("y = ",y)
+print("z = ",z)
+
+
+# Variable is case-sensitive 
+
+city = "New York"
+City = "San Francisco"
+
+print("city = ", city)
+print("City = ", City)
